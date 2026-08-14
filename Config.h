@@ -15,7 +15,7 @@
 //      Parameter Name              Value   Default  Notes                                                                      Hint
 // DISPLAY -------------------------------------------------------------------------------------------------------------------------
 #define DISPLAY_LANGUAGE             L_en //   L_en, English. Or L_us, L_ro.                                                  Adjust
-#define DISPLAY_OLED               SH1106 // SH1106, OLED 1.3" I2C display commonly used. SSD1306 is a 0.96" OLED display.    Infreq
+#define DISPLAY_OLED              SSD1309 // SH1106, OLED 1.3" I2C display commonly used. SSD1306 is a 0.96" OLED display.    Infreq
                                           //         The SSD1309 is often used on 1.54" or 2.3" I2C displays.
 
 // SERIAL PORTS --------------------------------------------------------------------------------------------------------------------
@@ -35,7 +35,7 @@
 
 // DISPLAY -------------------------------------------------------------------------------------------------------------------------
 #define DISPLAY_AMBIENT_CONDITIONS    OFF //    OFF, ON to show ambient conditions in the display rotation                    Option
-#define DISPLAY_WRAP_MENUS            OFF //    OFF, ON allows menus to wrap so moving past bottom returns to top, etc.       Option
+#define DISPLAY_WRAP_MENUS             ON //    OFF, ON allows menus to wrap so moving past bottom returns to top, etc.       Option
 #define DISPLAY_24HR_TIME              ON //     ON, OFF to use 12 hour format for entering time.                             Option
 #define DISPLAY_CONTRAST_DEFAULT        1 //      1, Use 0 to 3 for Min, Low, High, Max respectively.                         Option
 
